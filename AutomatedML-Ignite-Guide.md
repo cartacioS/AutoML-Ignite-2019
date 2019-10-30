@@ -25,11 +25,7 @@ You complete the following experiment set-up and run steps in the workspace land
 1. Select a folder as your target directory for the samples.
 ![Target Directory](./Images/target-dir.PNG)
 
-1. There is a folder displayed in the **User Files** section. Open this folder and click through the following directories **ss**
-
-## Select a VM to run the notebook
-
-1. Under **User Files** open your folder and then click through the following directories **how-to-use-azureml/automated-machine-learning/forecasting-energy-demand**.
+1. Under **User Files** open your folder and then click through the following directories **samples/how-to-use-azureml/automated-machine-learning/forecasting-energy-demand**.
 
     ![Open folder](Images/expand-user-folder.png)
 
@@ -37,6 +33,9 @@ You complete the following experiment set-up and run steps in the workspace land
     > You can view notebooks in the **samples** folder but you cannot run a notebook from there.  In order to run a notebook, make sure you open the cloned version of the notebook in the **User Files** section.
     
 1. Select the **auto-ml-forecasting-energy-demand.ipynb** file in the **forecasting-energy-demand** folder.
+
+## Select a VM to run the notebook
+
 
 1. On the top bar, select a Notebook VM to use to run the notebook. These VMs are pre-configured with everything you need to run Azure Machine Learning. You can select a VM created by any user of your workspace. 
 
