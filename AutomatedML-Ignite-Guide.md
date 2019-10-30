@@ -16,19 +16,16 @@ This example uses the cloud notebook server in your workspace for an install-fre
 
 You complete the following experiment set-up and run steps in the workspace landing page (preview), a consolidated interface that includes machine learning tools to perform data science scenarios for data science practitioners of all skill levels.
 
-1. Sign in to the [workspace landing page](https://ml.azure.com/).
+1. Click the `Start Now` button in the **Notebooks** pane.
+![Start Now](./Images/notebook-startnow.png)
 
-1. Select your subscription and the workspace you created.
+1. Select the **"..."** at the right of the **samples** folder and select **Clone**.
+![Clone Samples](./Images/clone-samples.png)
 
-1. Select **Notebooks and Files** on the left.
+1. Select a folder as your target directory for the samples.
+![Target Directory](./Images/target-dir.PNG)
 
-1. Open the **samples** folder.
-
-1. Select the **"..."** at the right of the **how-to-use-azureml** folder and then select **Clone**.
-
-    ![Clone folder](Images/clone-tutorials.png)
-
-1. There is a folder displayed for each user who accesses the workspace.  Select your folder to clone the **how-to-use-azureml**  folder there.
+1. There is a folder displayed in the **User Files** section. Open this folder and click through the following directories **ss**
 
 ## Select a VM to run the notebook
 
