@@ -19,7 +19,7 @@ You complete the following experiment set-up and run steps in the workspace land
 1. Click the `Start Now` button in the **Notebooks** pane.
 ![Start Now](./Images/notebook-startnow.png)
 
-1. Select the **"..."** at the right of the **samples** folder and select **Clone**.
+1. In the **Azure Ml gallery** pane select the **"..."** at the right of the **samples** folder and select **Clone**.
 ![Clone Samples](./Images/clone-samples.png)
 
 1. Select a folder as your target directory for the samples.
@@ -29,20 +29,18 @@ You complete the following experiment set-up and run steps in the workspace land
 ![Open Folder](./Images/notebook-path.PNG)    
  
 > [!IMPORTANT]
-> You can view notebooks in the **samples** folder but you cannot run a notebook from there.  In order to run a notebook, make sure you open the cloned version of the notebook in the **User Files** section.
+> You can view notebooks in the **Azure ML gallery** pane but you cannot run a notebook from there.  In order to run a notebook, make sure you open the cloned version of the notebook in the **User Files** section.
     
-## Select a VM to run the notebook
+## Create a VM to run the notebook
 
+1. Select the **New VM** button to create a VM to run your notebook.
+![Create VM](./Images/vm-button.png)
 
-1. On the top bar, select a Notebook VM to use to run the notebook. These VMs are pre-configured with everything you need to run Azure Machine Learning. You can select a VM created by any user of your workspace. 
+1. Fill out the **Notebook VM Name** field with the following <vm-YourID> and keep the default **VM type**. 
+![VM Fields](./Images/create-vm.png)
 
-1. If no VMs are found, select **+ New VM** to create the VM.
-
-    ![Create a VM](Images/new-vm.PNG)
-
-    1. When you create a VM, provide a name.  The name must be between 2 to 16 characters. Valid characters are letters, digits, and the - character, and must also be unique across your Azure subscription.
-
-    1. Then select **Create**. It can take approximately 5 minutes to set up your VM.
+1. It will take a few minutes for your Notebook VM setup to complete.
+![VM In Progress](./Images/vm-creating.PNG)
 
 1. Once the VM is available it will be displayed in the top toolbar.  You can now run the notebook either by using **Run all** in the toolbar, or by using **Shift+Enter** in the code cells of the notebook.
 
