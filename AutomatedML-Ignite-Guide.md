@@ -44,4 +44,4 @@ You complete the following experiment set-up and run steps in the workspace land
 
 1. Once the VM is available it will be displayed in the top toolbar.  You can now run the notebook either by using **Run all** in the toolbar, or by using **Shift+Enter** in the code cells of the notebook.
 
-1. The Jupyter notebook contain step by-step guidance onconfiguration, training, exploration, and operationalization of an machine learning model.
+1. The Jupyter notebook contains step by-step guidance on configuration, training, exploration, and operationalization of an machine learning model.
